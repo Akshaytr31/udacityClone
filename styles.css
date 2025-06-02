@@ -381,7 +381,7 @@ body{
     line-height: 2rem;
 }
 .learnig-space2{
-    height: 18px;
+    height: 8px;
 }
 .learning-element ul{
     display: flex;
@@ -464,8 +464,75 @@ body{
     text-decoration: none;
     color: #0B0B0B;
 }
+.learning-cotent-elm2-sub-content-elm{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: auto;
+}
+.learning-cotent-elm2-sub-content-elm1{
+    display: flex;
+    gap: 4px;
+}
+.learning-cotent-elm2-sub-content-elm1 div{
+    display: flex;
+}
+.learning-cotent-elm2-sub-content-elm1 div svg{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    line-height: 1em;
+    flex-shrink: 0;
+    color: #FDC353;
+    vertical-align: middle;
+}
 
+.learning-cotent-elm2-sub-content-elm1 p{
+    font-size: 0.75rem;
+    line-height:150%;
+    color: #696969;
+    font-weight: 600;
+    margin: 0;
+}
+.learning-cotent-elm2-sub-content-elm2{
+    display: flex;
+    border-top: 1px solid;
+    border-top-color: #F6F6F6;
+    flex-direction: column;
+    padding-top: 0.75rem;
+}
+.learning-hours{
+    display: flex;
+    align-items: center;
+    flex-basis: 18px;
+    font-weight: 500;
+    color: #696969;
+    gap: 0.25rem;
+}
+.learning-hours svg{
+    width: 1em;
+    height: 1em;
+    color: currentColor;
+}
+.learning-hours p{
+    font-size: 0.75rem;
+    line-height: 150%;
+}
 
+.learning-head{
+    font-size: 1rem;
+    line-height: 150%;
+    font-weight: 600;
+}
+.learning-para{
+  font-size: 1rem;
+  line-height: 150%; /* or 1.5 */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block; /* or block-level element */
+  max-height: calc(1.5em * 7); /* 7 lines of text */ /* 7 lines */
+
+}
 
 
 
