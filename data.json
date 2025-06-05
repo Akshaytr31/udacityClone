@@ -1,0 +1,21 @@
+{
+    "dropdown": [
+      {
+        "heading": "Fruits",
+        "items": ["Apple", "Banana", "Cherry", "Grapes", "Orange", "Mango"]
+      },
+      {
+        "heading": "Colors",
+        "items": ["Red", "Green", "Blue", "Yellow", "Purple", "Orange"]
+      },
+      {
+        "heading": "Animals",
+        "items": ["Cat", "Dog", "Elephant", "Tiger", "Lion", "Zebra"]
+      },
+      {
+        "heading": "Countries",
+        "items": ["India", "USA", "France", "Japan", "Brazil", "Australia"]
+      }
+    ]
+  }
+  

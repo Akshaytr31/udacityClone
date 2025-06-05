@@ -296,6 +296,8 @@ p{
 .learning-block1{
     width: 100%;
     padding-inline: 16px;
+    word-spacing: -1px;
+    margin: 2px 0 -2px 0;
 }
 .learning-block1 h2{
     font-family:"PolySans Neutral" ;
@@ -322,7 +324,7 @@ p{
     justify-content: flex-start;
     flex-direction: row;
     border-bottom: solid 3px gray;
-    margin-inline: 16px;
+    padding-inline: 16px;
 }
 .learning-block2 div button{
     font-family: sans;
@@ -360,7 +362,7 @@ p{
     width: 100%;
 }
 .learning-element{
-    padding: 24px 0px 0px;
+    padding: 23px 0px 0px;
     outline: 2px solid transparent;
     outline-offset: 2px;
 }
@@ -406,14 +408,26 @@ p{
     padding: 24px;
     width: 100%;
     flex-direction: column-reverse;
+    position: relative;
+    padding-top: 66px;
 
+}
+
+
+.learning-cotent{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 .learning-cotent-elm1{
     font-size: 0.75rem;
     line-height: 150%;
+    position: absolute;
+    top: 24px;
 }
-.learning-cotent-elm2{
-    margin-top: 24px;
+.learning-cotent-elm2 article{
+    /* margin-top: 24px; */
+    min-width: 190px;
 }
 .learning-cotent-elm1 article{
     border: 1px solid;
@@ -974,11 +988,37 @@ footer{
 }
 
 
+
+
+
 .social-medias li{
+    /* list-style: none;
+    text-decoration: underline;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    color: #2015FF;
+    font-size: 1rem;
+    line-height: 150%;
+    font-weight: 700;
+    position: relative; */
     list-style: none;
     height: 32px;
     width: 32px;
 }
+/* .social-medias li::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--chakra-colors-transparent);
+    border-radius: var(--chakra-radii-base);
+    border: solid 2px;
+    border-color: var(--chakra-colors-transparent);
+    transition: all .1s;
+    left: 50%;
+    top: 50%;
+
+} */
 .social-medias li img{
     height: 32px;
     width: 32px;
@@ -1058,11 +1098,101 @@ footer{
     .main-container-img {
         top: 0;
     }
+    .learning-cotent{
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+    }
+    .learning-cotent-elm1 {
+        position:static;
+        margin-bottom: 24px;
+        
+    }
+    .learning-element ul li{
+        padding-top: 24px;
+    }
+    .learning-block1{
+        padding-inline: 24px;
+    }
+    .learning-block1 h2{
+        font-size: 1.75rem;
+    }
+    .learning-block2-elm1 div{
+        padding-inline: 0;
+    }
+    .learning-element-para{
+        max-width:640px ;
+    }
+    .learning-block2-elm2{
+        padding-inline: 24px;
+    }
+    .learnig-para{
+        font-size: 1.25rem;
+        line-height: 2rem;
+    }
+    .popular-block{
+        padding-inline: 24px;
+    }
+    .development-block-elm ul{
+        padding-inline: 24px;
+    }
+    .company-block {
+        padding-inline: 24px;
+    }
+    .explore-block{
+        padding-inline: 24px;
+    }
+    .explore-content-list{
+        justify-content: unset;
+    }
+    .start-block-btn a{
+        width: fit-content;
+    }
+    .start-block-elm{
+        padding-inline: 24px;
+    }
+    .footer-btns-form{
+        flex-direction: row;
+        align-items: flex-end;
+    }
+    .footer-btns {
+        flex-direction: row;
+        align-items: flex-end;
+    }
+    .footer-space {
+        height: 24px;
+        border-bottom: 1px solid transparent;
+        margin-bottom: 0px;
+    }
+    .footer-block{
+        padding-inline: 24px;
+    }
 
+    .footer-btns{
+        gap: 16px;
+    }
+    .social-medias li img{
+        /* height: 31px;
+        width: 31px; */
+    }
+    .social-medias li {
+        /* height: 31px;
+        width: 31px; */
+    }
+    .footer-btns-form{
+        gap: 8px;
+    }
 }
 
 
-@media screen and (min-width: 990px){
+
+
+
+
+
+
+
+@media screen and (min-width: 992px){
     .header-container-elm1-a img{
         max-width: 170px;
      }
@@ -1159,7 +1289,69 @@ footer{
     .main-comtainer2{
         padding-inline: 48px;
     }
+    .learning-block2-elm2{
+        padding-inline: 48px;
+    }
+    .learning-block {
+        padding: 64px 0;
+    }
+    .learning-block1{
+        padding-inline: 48px;
+        margin: 3px 0 -3px 0;
+        word-spacing: -1px;
+    }
+    .learnig-space {
+        height: 64px;
+    }
+    .learning-cotent-elm2 article {
+        min-width: 190px;
+        max-height: 290px;
+        background-color: #fff;
+    }   
+    .popular-block{
+        padding-inline: 48px;
+    }
+    .development-block-elm ul{
+        padding-inline: 48px;
+    }
+    .company-block {
+        padding-inline: 48px;
+    }
+    .explore-block{
+        padding-inline: 48px;
+    }
+    .start-block-elm{
+        padding-inline: 48px;
+    }
+
+    .footer-block{
+        padding-inline: 48px;
+    }
+    .social-medias li {
+        height: 27px;
+        width: 27px;
+    }
+    .social-medias li img{
+        height: 27px;
+        width: 27px;
+    }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width:1120px){
     .main-comtainer2{
         max-width: 1120px;
@@ -1167,6 +1359,10 @@ footer{
         padding: 0;
     }
 }
+
+
+
+
 
 @media screen and (min-width: 1535px) {
     .display-none-1535{
