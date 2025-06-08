@@ -1,21 +1,563 @@
 {
-    "dropdown": [
+  "fundamentals": {
+    "title": "Steps to Learn Programming Fundamentals",
+    "description": "Learn programming basics and prepare for one of our career paths with these Nanodegree programs made with beginners in mind.",
+    "learningPath": [
       {
-        "heading": "Fruits",
-        "items": ["Apple", "Banana", "Cherry", "Grapes", "Orange", "Mango"]
+        "learning": {
+          "title": "Introduction to Programming",
+          "image": "img/firstblock.webp",
+          "rating": {
+            "stars": 4.5,
+            "votes": 1339
+          },
+          "details": {
+            "duration": "109 hours",
+            "level": "Beginner"
+          },
+          "step": "Step 1",
+          "skills_covered": [
+            "Control flow in Python",
+            "Command line interface basics",
+            "Python functions",
+            "Object-oriented Python",
+            "CSS",
+            "HTML",
+            "Python data structures",
+            "Text processing in Python",
+            "Code debugging",
+            "Python operators",
+            "Python classes",
+            "API requests",
+            "Variable scope",
+            "Python syntax",
+            "User input handling",
+            "Front-end development basics",
+            "Python methods",
+            "JSON",
+            "Python exception handling",
+            "Python lists",
+            "Computer memory architecture",
+            "Python standard library",
+            "Coding best practices",
+            "Python data types",
+            "Linting",
+            "Python scripting",
+            "Pep8",
+            "Code refactoring",
+            "Bash",
+            "Shell scripting",
+            "Built-in Python functions",
+            "Python turtle",
+            "Python function definition",
+            "Commenting code",
+            "Python variables",
+            "Devtools",
+            "Flexbox",
+            "Basic Python"
+          ]
+        }
       },
       {
-        "heading": "Colors",
-        "items": ["Red", "Green", "Blue", "Yellow", "Purple", "Orange"]
+        "learning": {
+          "title": "Data Structures and Algorithms",
+          "image": "img/learning/fundamentals/dataSturcture.webp",
+          "rating": {
+            "stars": 4.5,
+            "votes": 1339
+          },
+          "details": {
+            "duration": "47 hours",
+            "level": "Intermediate"
+          },
+          "step": "Step 2",
+          "skills_covered": [
+            "Basic algorithms",
+            "Tree search",
+            "Sorting algorithms",
+            "Basic Python",
+            "Graph algorithms",
+            "Depth-first search",
+            "Graph data structure",
+            "A* search algorithm",
+            "Breadth-first search",
+            "Greedy algorithms",
+            "Dynamic programming",
+            "Divide and conquer algorithms",
+            "Tree algorithms",
+            "Data structures",
+            "Recursive algorithms",
+            "Python trees",
+            "Python arrays",
+            "Hash maps"
+          ]
+        }
+      }
+    ]
+  },
+  "front-end": {
+    "title": "Steps To Become A Front-End Web Developer",
+    "description": "Demand for front-end developers is widespread across every industry—and only continues to rise. By mastering the valuable skills of this career path, you’ll be prepared for roles at a wide array of companies, from startups to global organizations.",
+    "learningPath": [
+      {
+        "learning": {
+          "title": "Introduction to Programming",
+          "image": "img/firstblock.webp",
+          "rating": {
+            "stars": 4.5,
+            "votes": 1339
+          },
+          "details": {
+            "duration": "109 hours",
+            "level": "Beginner"
+          },
+          "step": "Step 1",
+          "skills_covered": [
+            "Control flow in Python",
+            "Command line interface basics",
+            "Python functions",
+            "Object-oriented Python",
+            "CSS",
+            "HTML",
+            "Python data structures",
+            "Text processing in Python",
+            "Code debugging",
+            "Python operators",
+            "Python classes",
+            "API requests",
+            "Variable scope",
+            "Python syntax",
+            "User input handling",
+            "Front-end development basics",
+            "Python methods",
+            "JSON",
+            "Python exception handling",
+            "Python lists",
+            "Computer memory architecture",
+            "Python standard library",
+            "Coding best practices",
+            "Python data types",
+            "Linting",
+            "Python scripting",
+            "Pep8",
+            "Code refactoring",
+            "Bash",
+            "Shell scripting",
+            "Built-in Python functions",
+            "Python turtle",
+            "Python function definition",
+            "Commenting code",
+            "Python variables",
+            "Devtools",
+            "Flexbox",
+            "Basic Python"
+          ]
+        }
       },
       {
-        "heading": "Animals",
-        "items": ["Cat", "Dog", "Elephant", "Tiger", "Lion", "Zebra"]
+        "learning": {
+          "title": "Front End Web Developer",
+          "image": "img/learning/fundamentals/dataSturcture.webp",
+          "rating": {
+            "stars": 4.5,
+            "votes": 858
+          },
+          "details": {
+            "duration": "37 hours",
+            "level": "Intermediate"
+          },
+          "step": "Step 2",
+          "skills_covered": [
+            "CSS, Flexbox, Dom events, Website performance optimization, DOM manipulation, The document object model, Code debugging, HTML, Responsive web design, Control flow in JavaScript, The JavaScript call stack, JavaScript syntax, JavaScript variables, Ides, Website layout, JavaScript package management, Eslint, Webpack, Prettier, Jest, Java modules, Integration testing, Unit testing, HTML and CSS"
+          ]
+        }
       },
       {
-        "heading": "Countries",
-        "items": ["India", "USA", "France", "Japan", "Brazil", "Australia"]
+        "learning": {
+          "title": "Data Structures and Algorithms",
+          "image": "img/learning/fundamentals/dataSturcture.webp",
+          "rating": {
+            "stars": 4.5,
+            "votes": 530
+          },
+          "details": {
+            "duration": "47 hours",
+            "level": "Intermediate"
+          },
+          "step": "Step 3",
+          "skills_covered": [
+            "Basic algorithms",
+            "Tree search",
+            "Sorting algorithms",
+            "Basic Python",
+            "Graph algorithms",
+            "Depth-first search",
+            "Graph data structure",
+            "A* search algorithm",
+            "Breadth-first search",
+            "Greedy algorithms",
+            "Dynamic programming",
+            "Divide and conquer algorithms",
+            "Tree algorithms",
+            "Data structures",
+            "Recursive algorithms",
+            "Python trees",
+            "Python arrays",
+            "Hash maps"
+          ]
+        }
+      },
+      {
+        "learning": {
+          "title": "",
+          "image": "img/learning/frontEnd/image (react).webp",
+          "rating": {
+            "stars": 4.5,
+            "votes": 563
+          },
+          "details": {
+            "duration": "39 hours",
+            "level": "Intermediate"
+          },
+          "step": "Step 4",
+          "skills_covered": [
+            "React component state, React router, Application state management with redux, React design patterns, Jest, React-redux bindings, Fetching data, React hooks, JavaScript functions, Basic react, Create react app, Software testing, Application architecture, Automation testing, Redux middleware, Integration testing, Behavioral software testing, Redux-thunk, Functional testing, Web forms, Asynchronous redux, Futures and promises, Data lifecycle management, Test-driven development, Application development best practices, Unit testing, JavaScript composition, Jsx, Expo, React native asyncstorage, React native storage, React native, React native development environment, Code debugging, React native interactive features, React native basics, React native os APIs, Redux toolkit, React native forms, React native components, React native navigation, Flexbox, React native stylesheet API, React native features, Css-in-js, React native styling"
+          ]
+        }
+      }
+    ]
+  },
+  "FullStack_developer": {
+    "title": "Steps To Become A Full Stack Web Developer",
+    "description": "In this path, you'll take programming courses and learn to create complex server-side web applications that use relational databases to persistently store data. You’ll also build applications that can support any front end, and scale to support hundreds of thousands of users.",
+    "learningPath": [
+      {
+        "learning": {
+          "title": "Introduction to Programming",
+          "image": "img/firstblock.webp",
+          "rating": {
+            "stars": 4.5,
+            "votes": 1339
+          },
+          "details": {
+            "duration": "109 hours",
+            "level": "Beginner"
+          },
+          "step": "Step 1",
+          "skills_covered": [
+            "Control flow in Python",
+            "Command line interface basics",
+            "Python functions",
+            "Object-oriented Python",
+            "CSS",
+            "HTML",
+            "Python data structures",
+            "Text processing in Python",
+            "Code debugging",
+            "Python operators",
+            "Python classes",
+            "API requests",
+            "Variable scope",
+            "Python syntax",
+            "User input handling",
+            "Front-end development basics",
+            "Python methods",
+            "JSON",
+            "Python exception handling",
+            "Python lists",
+            "Computer memory architecture",
+            "Python standard library",
+            "Coding best practices",
+            "Python data types",
+            "Linting",
+            "Python scripting",
+            "Pep8",
+            "Code refactoring",
+            "Bash",
+            "Shell scripting",
+            "Built-in Python functions",
+            "Python turtle",
+            "Python function definition",
+            "Commenting code",
+            "Python variables",
+            "Devtools",
+            "Flexbox",
+            "Basic Python"
+          ]
+        }
+      },
+      {
+        "learning": {
+          "title": "Full Stack Web Developer",
+          "image": "img/learning/fullStack/image (1).webp",
+          "rating": {
+            "stars": 4.5,
+            "votes": 499
+          },
+          "details": {
+            "duration": "67 hours",
+            "level": "Intermediate"
+          },
+          "step": "Step 2",
+          "skills_covered": [
+            "SQLAlchemy, Flask, HTTP, Docker, Application authentication, Application security basics, Application authorization, Cors, API fluency, Object-relational mapping, Relational database transactions, Parsing form data, Kubernetes, Git, Jwts, Auth0, API testing, Unittest, PostgreSQL, Relational database migration, Psycopg2, Containerization fluency, Continuous deployment, AWS cli, Container orchestration, AWS codepipeline, Amazon Elastic Kubernetes Service, Continuous integration, AWS codebuild, Database query sanitization, Role-based access control, Data security fundamentals, Salt, Code reviews, Postman, Data encryption, Integration testing, API development, Curl, API documentation, Model-view-controller, Tcp/ip, Client-server model, Crud model, Alembic, Application routing"
+          ]
+        }
+      },
+      {
+        "learning": {
+          "title": "Data Structures and Algorithms",
+          "image": "img/learning/fundamentals/dataSturcture.webp",
+          "rating": {
+            "stars": 4.5,
+            "votes": 530
+          },
+          "details": {
+            "duration": "47 hours",
+            "level": "Intermediate"
+          },
+          "step": "Step 2",
+          "skills_covered": [
+            "Basic algorithms",
+            "Tree search",
+            "Sorting algorithms",
+            "Basic Python",
+            "Graph algorithms",
+            "Depth-first search",
+            "Graph data structure",
+            "A* search algorithm",
+            "Breadth-first search",
+            "Greedy algorithms",
+            "Dynamic programming",
+            "Divide and conquer algorithms",
+            "Tree algorithms",
+            "Data structures",
+            "Recursive algorithms",
+            "Python trees",
+            "Python arrays",
+            "Hash maps"
+          ]
+        }
+      }
+    ]
+  },
+  "iOS_developer": {
+    "title": "Steps To Become An iOS Developer",
+    "description": "In this path, you’ll learn to code and advance to programming in Swift, then create your first iOS app from scratch. You’ll build a portfolio you can present in interviews, learn mobile development fundamentals like design patterns, and tackle common technical interview questions to ultimately land a job as an iOS developer. If you are new to programming, begin with the Intro to Programming Nanodegree program to build fundamental skills.",
+    "learningPath": [
+      {
+        "learning": {
+          "title": "iOS Development with SwiftUI and SwiftData",
+          "image": "img/learning/ios/image(1).webp",
+          "rating": {
+            "stars": 4.5,
+            "votes": 1339
+          },
+          "details": {
+            "duration": "76 hours",
+            "level": "Intermediate"
+          },
+          "step": "Step 1",
+          "skills_covered": [
+            "iOS Development, HTTP, Credential management, Application authentication, Network requests in swift, Authentication, Swift data persistence, Swift classes, Application state management, Data modeling basics, Data binding, Mobile data management, iOS Core Data, iOS View Hierarchy, iOS Tab Navigation, iOS Animations, Xcode ide basics, iOS Stack Navigation, iOS UI Development, Uiviews, iOS Affordances, iOS SplitView Navigation, iOS Gestures, Ui design, Swift closures, Swift sets, Control flow, Swift Generics, Swift enums, Swift functions, Swift properties, Basic swift, Swift class extensions, Swift data types, Swift inheritance, Swift structs, String manipulation in swift, Swift operators, Swift arrays, Swift methods, Swift Tuples, Swift protocols, Boolean expressions, Swift Error Handling, Swift constants, Swift dictionaries, Swift optionals, Swift collections, Swift syntax, Swift grand central dispatch, Swift file management, Swift NSUserDefaults, Avfoundation framework, Code debugging, Swift and objective-c interoperability, JSON, Swift ibactions, Model-view-controller, Swift queues, Firebase, Uiimagepickercontroller, Https, Swift iboutlets, Swift autolayout, Secure network requests, Code refactoring, Git, Uikit classes, Apple app transport security protocol, Uitableview"
+          ]
+        }
+      },
+      {
+        "learning": {
+          "title": "Data Structures and Algorithms",
+          "image": "img/learning/fundamentals/dataSturcture.webp",
+          "rating": {
+            "stars": 4.5,
+            "votes": 530
+          },
+          "details": {
+            "duration": "47 hours",
+            "level": "Intermediate"
+          },
+          "step": "Step 2",
+          "skills_covered": [
+            "Basic algorithms",
+            "Tree search",
+            "Sorting algorithms",
+            "Basic Python",
+            "Graph algorithms",
+            "Depth-first search",
+            "Graph data structure",
+            "A* search algorithm",
+            "Breadth-first search",
+            "Greedy algorithms",
+            "Dynamic programming",
+            "Divide and conquer algorithms",
+            "Tree algorithms",
+            "Data structures",
+            "Recursive algorithms",
+            "Python trees",
+            "Python arrays",
+            "Hash maps"
+          ]
+        }
+      }
+    ]
+  },
+  "Android_developer": {
+    "title": "Steps To Become An Android Kotlin Developer",
+    "description": "We built these Nanodegree programs in partnership with Google specifically to support aspiring Android developers. Learners will master Android app development with Kotlin, a modern programming language that enables developers to be more concise and productive, and build professional apps for the world's most popular mobile platform using Android Studio and Kotlin.",
+    "learningPath": [
+      {
+        "learning": {
+          "title": "Android Kotlin Developer",
+          "image": "img/learning/android/image(1).webp",
+          "rating": {
+            "stars": 4.5,
+            "votes": 336
+          },
+          "details": {
+            "duration": "116 hours",
+            "level": "Intermediate"
+          },
+          "step": "Step 1",
+          "skills_covered": [
+            "Android custom views, Firebase, Android notifications, Recyclerview, Android activity lifecycle, Google maps in android development, Mobile app testing, Offline caching, Model-view-viewmodel architecture, Multi-screen app design, Android studio, Android development basics, Mockito, Integration testing, Location-aware app development, Dependency injection, Identity and access management fundamentals, Espresso testing framework, Declarative XML, Android property animations, Application animations, Android ui development, Talkback, Glide, Responsive app design, App localization, Retrofit, Rtl, Fetching data, Android development environment, Android best practices, Data binding"
+          ]
+        }
+      },
+      {
+        "learning": {
+          "title": "Data Structures and Algorithms",
+          "image": "img/learning/fundamentals/dataSturcture.webp",
+          "rating": {
+            "stars": 4.5,
+            "votes": 530
+          },
+          "details": {
+            "duration": "47 hours",
+            "level": "Intermediate"
+          },
+          "step": "Step 2",
+          "skills_covered": [
+            "Basic algorithms",
+            "Tree search",
+            "Sorting algorithms",
+            "Basic Python",
+            "Graph algorithms",
+            "Depth-first search",
+            "Graph data structure",
+            "A* search algorithm",
+            "Breadth-first search",
+            "Greedy algorithms",
+            "Dynamic programming",
+            "Divide and conquer algorithms",
+            "Tree algorithms",
+            "Data structures",
+            "Recursive algorithms",
+            "Python trees",
+            "Python arrays",
+            "Hash maps"
+          ]
+        }
+      }
+    ]
+  },
+  "blockChain_developer": {
+    "title": "Steps To Become A Blockchain Developer",
+    "description": "Demand for blockchain developers is skyrocketing. Prepare for a career in Blockchain by learning object-oriented programming, JavaScript, and how to work with Bitcoin and Ethereum protocols.",
+    "learningPath": [
+      {
+        "learning": {
+          "title": "Introduction to Programming",
+          "image": "img/firstblock.webp",
+          "rating": {
+            "stars": 4.5,
+            "votes": 1339
+          },
+          "details": {
+            "duration": "109 hours",
+            "level": "Beginner"
+          },
+          "step": "Step 1",
+          "skills_covered": [
+            "Control flow in Python",
+            "Command line interface basics",
+            "Python functions",
+            "Object-oriented Python",
+            "CSS",
+            "HTML",
+            "Python data structures",
+            "Text processing in Python",
+            "Code debugging",
+            "Python operators",
+            "Python classes",
+            "API requests",
+            "Variable scope",
+            "Python syntax",
+            "User input handling",
+            "Front-end development basics",
+            "Python methods",
+            "JSON",
+            "Python exception handling",
+            "Python lists",
+            "Computer memory architecture",
+            "Python standard library",
+            "Coding best practices",
+            "Python data types",
+            "Linting",
+            "Python scripting",
+            "Pep8",
+            "Code refactoring",
+            "Bash",
+            "Shell scripting",
+            "Built-in Python functions",
+            "Python turtle",
+            "Python function definition",
+            "Commenting code",
+            "Python variables",
+            "Devtools",
+            "Flexbox",
+            "Basic Python"
+          ]
+        }
+      },
+      {
+        "learning": {
+          "title": "Intermediate JavaScript",
+          "image": "img/learning/blockChain/image.webp",
+          "rating": {
+            "stars": 4.5,
+            "votes": 140
+          },
+          "details": {
+            "duration": "41 hours",
+            "level": "Intermediate"
+          },
+          "step": "Step 2",
+          "skills_covered": [
+            "JavaScript promises, Object-oriented JavaScript, Functional JavaScript, JavaScript async/await, Functional programming concepts, Variable scope, Asynchronous JavaScript, Programming paradigms, Immutable data, Object creation design patterns, Threading, JavaScript exception handling, Callbacks, Fetching data, JavaScript syntax, Redux, JavaScript object methods, Functional programming, Angularjs, The document object model, JavaScript variables, Arrays in JavaScript, Iifes, JavaScript functions, JavaScript methods"
+          ]
+        }
+      },
+      {
+        "learning": {
+          "title": "Blockchain Developer",
+          "image": "img/learning/blockChain/image (2).webp",
+          "rating": {
+            "stars": 4.5,
+            "votes": 140
+          },
+          "details": {
+            "duration": "29 hours",
+            "level": "Beginner"
+          },
+          "step": "Step 3",
+          "skills_covered": [
+            "Hardhat, Smart contracts, Solidity, Testnets, Blockchain, Blockchain Consensus, Blockchain Fluency, Blockchain transactions"
+          ]
+        }
       }
     ]
   }
-  
+}
+
+
+
+

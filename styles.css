@@ -1064,8 +1064,111 @@ footer{
 }
 
 
+.menu-dropDown{
+    display: block;
+    overflow: hidden;
+    opacity: 1;
+    height: auto;
+    position: absolute;
+    z-index: 4;
+    width: 100%;
+    transition: height 0.5s ease;
+}
 
 
+
+#dropDown-menu{
+    height: 0;
+}
+.menu-dropDown-container{
+    display: block;
+}
+
+.menu-dropDown-container-sub{
+    background-color: #fff;
+    height: calc(-4rem+100vh);
+    overflow: auto;
+}
+
+.menu-dropDown-container-sub nav{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    border-top: 1px solid;
+    border-color:#DFDFDF;
+}
+.learn-btn{
+    display: flex;
+    padding: 1rem;
+    width: 100%;
+    align-items: center;
+    border-bottom: 1px solid;
+    border-color: #DFDFDF;
+    background-color: #fff;
+}
+.learn-btn div{
+    font-family: "PolySans Neutral";
+    font-weight: 400;
+    font-size: 1.75rem;
+    line-height: 2rem;
+    color: #0B0B0B;
+
+}
+.learn-btn svg{
+    display: inline-flex;
+    line-height: 1rem;
+    flex-shrink: 0;
+    vertical-align: middle;
+    height: 2rem;
+    width: 2rem;
+
+}
+.menu-dropDown-elements{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 100%;
+    align-items: center;
+    border-bottom: 1px solid #DFDFDF;
+    background-color: #fff;
+}
+.menu-dropDown-elements div{
+    font-family: "PolySans Neutral";
+    font-weight: 400;
+    font-size: 1.75rem;
+    line-height: 2rem;
+    color: #0B0B0B;
+}
+
+.menu-dropDown-btns{
+    display: flex;
+    gap: 1rem;
+    padding-inline: 1rem;
+}
+.menu-dropDown-btns a:first-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 12px 32px;
+    border: 2px solid rgb(32, 21, 255);
+    color:rgb(32, 21, 255) ;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.menu-dropDown-btns a:last-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1005;
+    padding: 12px 24px;
+    border: 2px solid rgb(32, 21, 255);
+    background-color:rgb(32, 21, 255) ;
+    color: #fff;
+    border-radius: 4px;
+    font-weight: 600;
+}
 
 
 
@@ -1337,7 +1440,6 @@ footer{
     }
 
 }
-
 
 
 

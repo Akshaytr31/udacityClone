@@ -1,0 +1,69 @@
+[
+    {
+      "title": "Inroduction to Programing",
+      "image": "img/container.webp",
+      "rating": {
+        "stars": 4.5,
+        "votes": 1339
+      },
+      "details": {
+        "duration": "109 hours",
+        "level": "Beginner"
+      }
+    },
+    {
+      "title": "C++",
+      "image": "img/popular/C++.webp",
+      "rating": {
+        "stars": 4.2,
+        "votes": 809
+      },
+      "details": {
+        "duration": "62 hours",
+        "level": "Intermediate"
+      }
+    },
+    {
+        "title":"Full Stack Web Developer",
+        "image":"img/popular/fullStack.webp",
+        "rating":{
+            "stars":4.5,
+            "votes":499
+        },
+        "details":{
+            "duration":"67 hours",
+            "level":"Intermediate"
+        }
+    },
+    {
+        "title":"Front End Web Developer",
+        "image":"img/popular/frontend .webp",
+        "rating":{
+            "stars":4.5,
+            "votes":858
+        },
+        "details":{
+            "duration":"67 hours",
+            "level":"Intermediate"
+        }
+    },
+    {
+        "title":"Blockchain Developer",
+        "image":"img/popular/blockChain.webp",
+        "rating":{
+            "stars":"",
+            "votes":""
+        },
+        "details":{
+            "duration":"29 hours",
+            "level":"Beginner"
+        }
+    }
+  ]
+
+
+
+
+
+
+
